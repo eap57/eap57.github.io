@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Projects - Evelyn Putri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left-side">
+            <div class="brand">
+                <div>
+                    Evelyn Putri
+                </div>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="nav-link-wrapper">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="about_me.html">About Me</a>
+            </div>
+            <div class="nav-link-wrapper active-nav-link">
+                <a href="projects.html">Projects</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="for_fun.html">For Fun</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="Putri_Evelyn.pdf">Resume</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="section-wrapper project-page-container">
+
+            <div class="project-container" id="necktec"></div>
+            <h1 class="project-page-header">NeckTec</h1>
+            <h4>Collaborators: Aidan Therien, James Allen</h4>
+            <h4>Advisors: Dr. Mark Palmeri, Marissa Pentico</h4>
+            <div class="project-content">
+                <h2>Problem</h2>
+                <p>Surgeons at the Duke University Hospital often disregard poor posture while performing operations
+                    that can last up to 12 hours. Repeated periods of poor neck posture can result in chronic pain
+                    that can ultimately reduce the longevity of a surgeon's career.</p>
+
+                <h2>Our Solution</h2>
+                <p>We will design a way to real-time detect and record neck posture in Duke University Hospital Head and Neck surgeons that immediately and clearly alerts the user to correct their posture.​</p>
+
+                <h2>Mechanical Design</h2>
+                <h3>Our Device Layout</h3>
+                <div class="image-container">
+
+                    <img src="images/necktec/poc.png" alt="">
+                </div>
+                <h3>Final Assembled Prototype</h3>
+                <div class="image-container">
+
+                    <img src="images/necktec/assembly.png" alt="">
+                </div>
+                <h3>CAD Models of Enclosures</h3>
+                <div class="image-container-double">
+                    <img src="images/necktec/loupe-attachment.png" alt="" height="250" >
+                    <img src="images/necktec/satellite-device.png" alt="" height="250">
+                </div>
+
+                <h2>Electronics Design</h2>
+
+                <h3>Schematic</h3>
+                <div class="image-container">
+                    <img src="images/necktec/schematic.png" alt="">
+                </div>
+                <h3>PCB Design</h3>
+                <div class="image-container">
+                    <img src="images/necktec/pcb.png" alt="">
+                </div>
+            </div>
+
+            <div class="project-container" id="bme-design-fellows">
+                <h1 class="project-page-header">BME Design Fellows</h1>
+                <h4>Collaborators: Mia de Leon, Nami Reddy, Nick Schiciano</h4>
+                <h4>Advisors: Dr. Mark Palmeri, MEDRhythms</h4>
+                <div class="project-content">
+                    <h2>Problem</h2>
+                    <p>MEDRhythms incorporates Rhythmic Auditory Stimulation (RAS), a novel approach utilizing rhythmic engagement with the motor system, in improving the rate of recovery of patients undergoing treatment for neurologic injuries and diseases. Our task is to improve their treatment device through the addition of a biometric tracking of fatigue over the course of the therapy.</p>
+    
+                    <h2>Our Solution</h2>
+                    <p>We will design a way to detect & alert for user fatigue during RAS therapy sessions in a general population of "tech-challenged walkers" that will decrease the occurrence of "high-risk" fatigue-related symptoms and/or fatigue-related injury. A prototype is in the works right now! Come back in a few weeks to see updates on our progress.</p>
+                </div>
+            </div>
+
+            <div class="project-container" id="gwht">
+                <h1 class="project-page-header">GWHT Center</h1>
+                    <h4>Advisors: Riley Deutsch, Dr. Nimmi Rammanujam</h4>
+                <div class="project-content">
+                    <h2>Problem</h2>
+                    <p>Founded by Dr. Nimmi Rammanujam, the Center for Global Women's Health Technologies focuses on advancing research and global health to create more accessible and effective cancer diagnosis, prevention, and treatment for women worldwide. A group at the lab is incorporating novel fluoroscopy techniques into the CapCell, a low-cost and portable device used to detect breast tumor residuals that could lead to cancer recurrence. Before the device can be taken into the clinic, the optimal lighting conditions must be researched, which requires a convenient and reliable control of the device's electronic components. </p>
+    
+                    <h2>Our Solution</h2>
+                    <p>I have developed a circuit for the CapCell that allows for the LEDs involved in the fluoroscopy imaging process to be driven at a constant current. It is accompanied by a easy analog and digital brightness control by a graphical user interface (GUI) and is currently being tested for efficacy in the lab.</p>
+
+                    <h2>Circuit Design</h2>
+                    <h3>Schematic</h3>
+                    <div class="image-container">
+                        <img src="images/gwht/capcell-schematic.png" alt="">
+                    </div>
+                    <h3>PCB</h3>
+                    <div class="image-container">
+                        <img src="images/gwht/capcell-pcb.png" alt="">
+                    </div>
+                    <h2>GUI Demo</h2>
+                    <div class="image-container">
+                        <img src="images/gwht/gui.png" alt="">
+                    </div>
+                    <div class="image-container">
+                        <video width="900" height="450" controls>
+                            <source src="images/gwht/demo.MOV" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-container" id="ultrasound">
+                <h1 class="project-page-header">Ultrasound Denoising</h1>
+                <h4>Collaborator: Corey Simmerer</h4>
+                <div class="project-content">
+                    <h2>Problem</h2>
+                    <p>Ultrasounds are commonly used in medical imaging, especially fetal imaging, due to its low cost, convenience, and non-ionizing properties. From the inherent properties of ultrasound waves, however, backscattering of the tissue undergoes random constructive and destructive interference that create an unwanted textured or grainy visual effect and diminish the quality of the image. This noise is categorized as speckle noise.</p>
+    
+                    <h2>Our Solution</h2>
+                    We explored novel algorithms that are commonly applied to reduce speckle noise and improve image quality of ultrasound images. The median filter and discrete wavelet transform denoising methods were implemented on noisy fetal and carotid artery images, and the denoised outputs were compared to the original image. You can read more about our experimental process and view our results <a href="" style="color:#4AC0C3">here.</a>
+
+                    <p></p>
+
+
+                </div>
+            </div>
+
+            <div class="project-container" id="cree">
+                <h1 class="project-page-header">Cree | Wolfspeed Internship</h1>
+                <div class="project-content">
+                    <p>Cree | Wolfspeed is a powerhouse semiconductor manufacturing company that delivers a multitude of SiC and GaN technologies to its customers. As a semiconductor test engineering intern at Wolfspeed, I ventured into cleanrooms and focused on enhancing the available wafer-handling test systems.</p>
+
+                </div>
+            </div>
+
+            <div class="project-container" id="spirometer">
+                <h1 class="project-page-header">Spirometer</h1>
+                <h4>Collaborator: Jason Stranne</h4>
+                <div class="project-content">
+                    <h2>Introduction to Spirometry</h2>
+                    <p>Spirometers are commonly used to assess lung function and diagnose respiratory conditions, such as asthma or COPD. It primarily measures air flow as a proxy for lung function.</p>
+    
+                    <h2>Our Design</h2>
+                    <div class="two-column-wrapper">
+                        <div class="image-container">
+                            <img src="images/spirometer/demo-pic.png" alt="" class="project-picture-left">
+                        </div>
+                        <div class="image-container">
+                            <p>We built a spirometer that can measure and report air flow and lung volume from a single inhalation and exhalation. Our device collects pressure data from a pneumotachometer sensor, pre-processes analog data, reports the air messurements of interest on an LCD shield, and graphically displays the flow-volume curve to visually aid lung function assessment. After prototyping, our spirometer was tested against a clinical spirometer, and the measurements were found to be within the limits of agreement in a Bland-Altman analysis.
+                            </p>
+
+                        </div>
+                        
+                    </div>
+                    
+                    <h3>Block Diagram</h3>
+                    <div class="image-container-small">
+                        <img src="images/spirometer/block-diagram.png" alt="">
+                    </div>
+                    <h3>Schematic</h3>
+                    <div class="image-container">
+                        <img src="images/spirometer/schematic.png" alt="">
+                    </div>
+                    <h3>Final Circuit and Display</h3>
+                    <div class="image-container">
+                        <img src="images/spirometer/circuit.png" alt="">
+                        <img src="images/spirometer/graph.png" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        
+    </div>
+
+    </div>
+    <div class="section-wrapper">
+        <h2></h2>
+
+    </div>
+
+
+    <!---------Contact-------->
+    <footer>
+        <div class="contact-icons-wrapper">
+            <li><a href="mailto: evelyn.putri@duke.edu"><i class="fa fa-envelope"></i></a></li>
+            <li><i class="fa fa-phone"></i></li>
+            <li><a href="https://www.linkedin.com/in/evelyn2putri/"><i class="fa fa-linkedin"></i></a></li>
+
+            <li><a href="mailto: evelyn.putri@duke.edu">evelyn.putri@duke.edu</a></li>
+            <li>302.339.1178</li>
+            <li><a href="https://www.linkedin.com/in/evelyn2putri/">evelyn2putri</a></li>
+        </div>
+        <div class="copyright-wrapper">
+            designed by evelyn putri
+        </div>
+    </footer>
+
+    </div>
+</body>
+
+</html>

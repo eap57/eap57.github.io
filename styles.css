@@ -10,6 +10,7 @@
 
 body {
     background-color: #EEEEEE;
+    font-size: 18px;
 }
 
 /*-------Nav Bar Styles--------*/
@@ -26,7 +27,7 @@ nav {
 
 .nav-link-wrapper {
     margin-right: 20px;
-    height: 22px;
+    height: 28px;
     border-bottom: 1px solid transparent; /* won't see this line */
     transition: border-bottom 0.5s;
 }
@@ -84,8 +85,10 @@ h1 a:hover, p a:hover {
 }
 
 .section-wrapper {
-    padding: 30px 50px 0 50px;
+    padding: 30px 0 0 0;
     text-align: center;
+    max-width: 1080px;
+    margin: auto;
 }
 .introduction h1{
     color: #4AC0C3;
@@ -136,6 +139,7 @@ h1 a:hover, p a:hover {
 
 .project-title, .tags {
     transition: color 0.5s;
+    margin: 0px 10px;
 }
 
 .project-title {
@@ -219,3 +223,114 @@ footer a {
     opacity: 0.7;
     border-bottom: 1px solid #4AC0C3;
 }
+
+/*------------Project Page Styles-------------*/
+/* .project-grid-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.three-column {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.three-column-item {
+    position: relative;
+    top: 0;
+    width: 25%;
+    text-align: center;
+    margin: 0 40px;
+    border-radius: 30px;
+}
+
+.three-column-item ul {
+    text-align: left;
+}
+.three-column-item li {
+    list-style: circle;
+    margin-left: 10px;
+}
+
+.project-container img {
+    width: 800px;
+}
+*/
+.project-page-container{
+    text-align: left; 
+}
+
+.project-page-header {
+    margin: 20px 0;
+    justify-content: left !important;
+    color: #4AC0C3;
+    border-bottom: 1px solid #4AC0C3;
+}
+
+.project-content h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+} 
+
+.project-content h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container, .image-container-double, .image-container-small{
+    display: flex;
+    justify-content: center;
+    padding: 5px 20px;
+}
+
+.image-container img {
+    height: 400px;
+}
+
+.image-container-double img{
+    height:250px;
+}
+
+.project-picture-left {
+    height: 300px;
+    width: auto;
+}
+
+/* -------For Fun------- */
+
+.fun-grid-item {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #4AC0C3;
+    transition: background-color 0.5s;
+    transition: filter 0.5s;
+    position: relative;
+    /* text-align: center; */
+}
+
+.fun-grid-item:hover {
+    filter: brightness(40%);
+}
+
+.fun-words {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.fun-title, .fun-description {
+    padding: 0px 15px;
+    color: #4AC0C3;
+}
+
